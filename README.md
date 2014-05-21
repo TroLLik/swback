@@ -29,5 +29,5 @@ Configuration File Upload/Download -> TFTP Configuration File Upload/Download
 
 Propertis           | Value
 --------------------|:-------:
-TFTP Server IP:     |<ip_address\>
-Config File Name:   |<folder\>/<config_name\>.cfg
+TFTP Server IP:     |ip_address
+Config File Name:   |folder/config_name.cfg
