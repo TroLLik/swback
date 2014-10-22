@@ -10,16 +10,20 @@ Scripts support backup following models of hardware.
 * at-8550 (ATS62)
 * at-9410
 
-### D-link
+### D-link:
 * dgs-3024
 
 ### Cisco
 * all hardware with classic ISO syntax
 
-###Requirements:
+### MikroTik
+* all hardware with classic MikroTik syntax
 
-* [expect](http://ru.wikipedia.org/wiki/Expect)
-* [tftpd](http://ru.wikipedia.org/wiki/TFTP)
+###Requirements
+
+* [expect](http://en.wikipedia.org/wiki/Expect)
+* [tftpd](http://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol)
+* [ftp](http://en.wikipedia.org/wiki/File_Transfer_Protocol)
 
 ###Notation
 

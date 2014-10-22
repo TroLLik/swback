@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#switch backuper v0.1
+#switch backuper v0.2
 
 #secret
 log='<your user name>'
@@ -8,6 +8,10 @@ pas='<your password>'
 srv='<tftp server name>'
 #for ATS62, at-8024 and dgs-3024 like only
 srvip='<tftp server ip address>'
+#for MikroTik
+ftpsrv='<ftp server name>'
+ftpuser='<your ftp user name>'
+ftppwd='<your ftp password>'
 
 #telent at-8000 like syntax
 for host in '<switch1>' '<switch2>' '<switch3>'
@@ -59,4 +63,10 @@ done
 for host in '<switch1>' '<switch2>' '<switch3>'
 do
 expect -f ./backup_telnet_at8024.sh $host $log $pas $srvip #> /dev/null
+done
+
+#ssh mikrotik like syntax
+for host in '<switch1>' '<switch2>' '<switch3>'
+do
+expect -f ./backup_ssh_mkrb.sh $host $log $pas $ftpsrv $ftpuser $ftppwd #> /dev/null
 done
