@@ -68,5 +68,5 @@ done
 #ssh mikrotik like syntax
 for host in '<switch1>' '<switch2>' '<switch3>'
 do
-expect -f ./backup_ssh_mkrb.sh $host $log $pas $ftpsrv $ftpuser $ftppwd #> /dev/null
+expect -f ./backup_ssh_mtrb.sh $host $log $pas $ftpsrv $ftpuser $ftppwd #> /dev/null
 done
