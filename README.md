@@ -10,7 +10,7 @@ Scripts support backup following models of hardware.
 * at-8550 (ATS62)
 * at-9410
 
-### D-link:
+### D-link
 * dgs-3024
 
 ### Cisco
